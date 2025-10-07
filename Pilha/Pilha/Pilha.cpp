@@ -63,7 +63,7 @@ void menu()
 void inicializar()
 {
 
-	// se a lista j· possuir elementos
+	// se a lista j√° possuir elementos
 	// libera a memoria ocupada
 	NO* aux = topo;
 	while (aux != NULL) {
@@ -127,9 +127,8 @@ void exibir()
 
 	cout << "Conteudo da pilha" << endl;
 
-
-	//esse primeiro È puramente pra ficar bonito, 
-	//È possivel fazer so pelo while.
+	//esse primeiro √© puramente pra ficar bonito, 
+	//√© possivel fazer so pelo while.
 	cout << aux->valor;
 	aux = aux->prox;
 
